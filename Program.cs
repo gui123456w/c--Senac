@@ -1,8 +1,10 @@
 ﻿using CursoCHsharp.atv;
 using CursoCHsharp.Fundamentos;
 using CursoCSharp.Fundamentos;
+using CursoCHsharp.ClassesEMetodos;
 using System;
 using System.Collections.Generic;
+
 
 namespace CursoCSharp {
 
@@ -45,8 +47,13 @@ namespace CursoCSharp {
 
                 {"ArtilheiroGols - atv ", ArtilheiroGols.Executar  },
 
-                {"CadastroTorcedores - atv ", CadastroTorcedores.Executar }
+                {"CadastroTorcedores - atv ", CadastroTorcedores.Executar },
 
+
+
+                //Membros - Classes e Metodos
+                {"Membros - ClassesEMetodos", Membros.Executar }
+                
             });
 
 
