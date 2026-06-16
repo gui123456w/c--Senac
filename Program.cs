@@ -52,7 +52,12 @@ namespace CursoCSharp {
 
 
                 //Membros - Classes e Metodos
-                {"Membros - ClassesEMetodos", Membros.Executar }
+                {"Membros - ClassesEMetodos", Membros.Executar },
+
+                //atividade de jogadores
+
+                {"Reciptor - ClassesEMetodos", Reciptor.Executar  },
+                {"Animais - ClassesEMetodos", Animais.Executar }
                 
             });
 

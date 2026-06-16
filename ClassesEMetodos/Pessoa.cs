@@ -11,9 +11,13 @@ namespace CursoCHsharp.ClassesEMetodos {
         public int Idade; 
         public double Altura;
        
-
         public string APresentar() {
-            return $"Olá, meu nome é {Nome}, tenho {Idade} anos e minha altura é {Altura}m.";
+            return string.Format($"Olá, meu nome é {Nome}, tenho {Idade} anos e minha altura é {Altura}m.");
         }
+
+        public void ApresentarNoConsole() {
+            Console.WriteLine(APresentar());
+        }
+
     }
 }
