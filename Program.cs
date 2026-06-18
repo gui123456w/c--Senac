@@ -48,6 +48,8 @@ namespace CursoCSharp {
                 {"ArtilheiroGols - atv ", ArtilheiroGols.Executar  },
 
                 {"CadastroTorcedores - atv ", CadastroTorcedores.Executar },
+                //class
+                {"ClassesSelecao - atv ", ClassesSelecao.Executar },
 
 
 
@@ -57,7 +59,17 @@ namespace CursoCSharp {
                 //atividade de jogadores
 
                 {"Reciptor - ClassesEMetodos", Reciptor.Executar  },
-                {"Animais - ClassesEMetodos", Animais.Executar }
+                {"Animais - ClassesEMetodos", Animais.Executar },
+                {"Construtores - ClassesEMetodos ", Construtoress.Executar },
+                //calculadora
+                {"ConversorTemperatura - ClassesEMetodos", ConversosTemperatura.Executar },
+                //MetodosEstatico
+
+                {"MetodosEstatico - ClassesEMetodos", MetodosEstatico.Executar },
+                {"CalcularDesconto - ClassesEMetodos ", CalcularDesconto.Executar }
+
+
+                
                 
             });
 
