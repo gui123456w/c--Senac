@@ -18,7 +18,9 @@ namespace CursoCHsharp.atv {
             Titulos = titulos;
         }
 
-        public void Ganhar() => Titulos++;
+        public void Ganhar() {
+            Titulos++;
+        }
 
         public void Perder() {
             if (Titulos > 0)
@@ -27,22 +29,46 @@ namespace CursoCHsharp.atv {
 
         public void MostrarDados() {
             Console.WriteLine(
-                $"País escolhido: {Pais} | Continente: {Continente} | Títulos: {Titulos}");
+                $"País: {Pais} | Continente: {Continente} | Títulos: {Titulos}");
         }
     }
-}
+    internal class ClassesSelecao {
+        public static void Executar() {
+            Selecao selecao = CriarSelecao();
 
-internal class ClassesSelecao {
-    public static void Executar() {
-        Selecao brasil = new Selecao("Brasil", "América do Sul", 5);
+            selecao.MostrarDados();
 
-        brasil.Ganhar();
-        brasil.MostrarDados();
+            selecao.Ganhar();
+            Console.WriteLine("\nApós ganhar um título:");
+            selecao.MostrarDados();
 
-        Selecao alemanha = new Selecao("Alemanha", "Europa", 4);
+            selecao.Perder();
+            Console.WriteLine("\nApós perder um título:");
+            selecao.MostrarDados();
+        }
 
-        alemanha.Ganhar();
+        private static Selecao CriarSelecao() {
+            Console.Write("Digite o país: ");
+            string pais = Console.ReadLine();
 
-        alemanha.MostrarDados();
+            Console.Write("Digite o continente: ");
+            string continente = Console.ReadLine();
+
+            int titulos = LerTitulos();
+
+            return new Selecao(pais, continente, titulos);
+        }
+
+        private static int LerTitulos() {
+            int titulos;
+
+            Console.Write("Digite a quantidade de títulos: ");
+
+            while (!int.TryParse(Console.ReadLine(), out titulos)) {
+                Console.Write("Valor inválido. Digite um número inteiro: ");
+            }
+
+            return titulos;
+        }
     }
 }
