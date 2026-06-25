@@ -1,9 +1,10 @@
 ﻿using CursoCHsharp.atv;
+using CursoCHsharp.ClassesEMetodos;
 using CursoCHsharp.Fundamentos;
 using CursoCSharp.Fundamentos;
-using CursoCHsharp.ClassesEMetodos;
 using System;
 using System.Collections.Generic;
+using static CursoCHsharp.ClassesEMetodos.VendaCelular;
 
 
 namespace CursoCSharp {
@@ -66,10 +67,17 @@ namespace CursoCSharp {
                 //MetodosEstatico
 
                 {"MetodosEstatico - ClassesEMetodos", MetodosEstatico.Executar },
-                {"CalcularDesconto - ClassesEMetodos ", CalcularDesconto.Executar }
+                {"CalcularDesconto - ClassesEMetodos ", CalcularDesconto.Executar },
+                {"Oficina Mecânica - Classes e Métodos", OficinaMecanica.Executar },
 
+                {"Loja de Celulares - Classes e Métodos", LojaCelulares.Executar },
+                {"Params - Classes e Métodos", Params.Executar  },
 
-                
+                {"Soma Params - ClassesEMetodos", Soma.Executar },
+
+                {"Lanchonete - ClassesEMetodos ", Lanchonete.Executar },
+                {"PIzaria - ClassesEMetodos ", Pizzaria.Executar }
+
                 
             });
 
