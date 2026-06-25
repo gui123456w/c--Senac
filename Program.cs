@@ -76,7 +76,10 @@ namespace CursoCSharp {
                 {"Soma Params - ClassesEMetodos", Soma.Executar },
 
                 {"Lanchonete - ClassesEMetodos ", Lanchonete.Executar },
-                {"PIzaria - ClassesEMetodos ", Pizzaria.Executar }
+                {"PIzaria - ClassesEMetodos ", Pizzaria.Executar },
+
+                {"GetSet- ClassesEMetodos ", GetSet.Executar },
+                {"Produto 1 - ClassesEMetodos ", Produto1.Executar }
 
                 
             });

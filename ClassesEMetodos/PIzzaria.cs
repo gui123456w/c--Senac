@@ -11,7 +11,7 @@ namespace CursoCHsharp.ClassesEMetodos {
             Console.WriteLine("\nSua pizza terá " + ingredientes.Length + " ingredientes:");
 
             foreach (string ingrediente in ingredientes) {
-                Console.WriteLine("- " + ingrediente);
+                Console.WriteLine(" - " + ingrediente);
             }
         }
 
