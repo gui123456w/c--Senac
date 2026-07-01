@@ -81,7 +81,9 @@ namespace CursoCSharp {
                 {"GetSet- ClassesEMetodos ", GetSet.Executar },
                 {"Produto 1 - ClassesEMetodos ", Produto1.Executar },
                 //
-                {"Jogo - ClassesEMetodos ", Jogo.Executar }
+                {"Jogo - ClassesEMetodos ", Jogo.Executar },
+
+                {"Ivone - ClassesEMetodos ", Ivone.Executar }
                 
             });
 
