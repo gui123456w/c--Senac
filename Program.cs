@@ -2,9 +2,11 @@
 using CursoCHsharp.ClassesEMetodos;
 using CursoCHsharp.Fundamentos;
 using CursoCSharp.Fundamentos;
+
 using System;
 using System.Collections.Generic;
 using static CursoCHsharp.ClassesEMetodos.VendaCelular;
+using CursoCHsharp.Colecoes;
 
 
 namespace CursoCSharp {
@@ -83,8 +85,11 @@ namespace CursoCSharp {
                 //
                 {"Jogo - ClassesEMetodos ", Jogo.Executar },
 
-                {"Ivone - ClassesEMetodos ", Ivone.Executar }
-                
+                {"Ivone - ClassesEMetodos ", Ivone.Executar },
+
+                // coleções 
+                {"Arrays   - Colecoes", Arrays.Executar}
+
             });
 
 
