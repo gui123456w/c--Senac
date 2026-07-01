@@ -79,8 +79,9 @@ namespace CursoCSharp {
                 {"PIzaria - ClassesEMetodos ", Pizzaria.Executar },
 
                 {"GetSet- ClassesEMetodos ", GetSet.Executar },
-                {"Produto 1 - ClassesEMetodos ", Produto1.Executar }
-
+                {"Produto 1 - ClassesEMetodos ", Produto1.Executar },
+                //
+                {"Jogo - ClassesEMetodos ", Jogo.Executar }
                 
             });
 

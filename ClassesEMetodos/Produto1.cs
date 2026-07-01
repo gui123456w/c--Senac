@@ -39,5 +39,5 @@ namespace CursoCHsharp.ClassesEMetodos {
             Console.WriteLine(produto1.Nome);
             Console.WriteLine(produto1.Preco);
         }
-    }
+    } 
 }
