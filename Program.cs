@@ -53,6 +53,8 @@ namespace CursoCSharp {
                 {"CadastroTorcedores - atv ", CadastroTorcedores.Executar },
                 //class
                 {"ClassesSelecao - atv ", ClassesSelecao.Executar },
+                // atv-array
+                {"ArrayMercado - atv ", ArrayMercado.Executar },
 
 
 
