@@ -90,7 +90,9 @@ namespace CursoCSharp {
                 {"Ivone - ClassesEMetodos ", Ivone.Executar },
 
                 // coleções 
-                {"Arrays   - Colecoes", Arrays.Executar}
+                {"Arrays   - Colecoes", Arrays.Executar},
+
+                {"Coleções Queueu - Colecoes", ColecoesQueue.Executar }
 
             });
 
