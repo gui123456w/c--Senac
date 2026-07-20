@@ -2,6 +2,7 @@
 using CursoCHsharp.ClassesEMetodos;
 using CursoCHsharp.Fundamentos;
 using CursoCSharp.Fundamentos;
+using CursoCHsharp.OO;
 
 using System;
 using System.Collections.Generic;
@@ -92,7 +93,13 @@ namespace CursoCSharp {
                 // coleções 
                 {"Arrays   - Colecoes", Arrays.Executar},
 
-                {"Coleções Queueu - Colecoes", ColecoesQueue.Executar }
+                {"Coleções Queueu - Colecoes", ColecoesQueue.Executar },
+
+                {"Coleções Stack - Colecoes", ColecoesStack.Executar },
+
+                //OO
+
+                {"Herança   - OO", Heranca.Executar }
 
             });
 
