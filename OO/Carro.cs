@@ -28,7 +28,6 @@ namespace CursoCHsharp.OO {
                 } else {
                     VelocidadeAtual = novaVelocidade;
                 }
-
                 return VelocidadeAtual;
             }
 
@@ -56,5 +55,5 @@ namespace CursoCHsharp.OO {
             Console.WriteLine(carro1.Acelerar());
             Console.WriteLine(carro1.Frear());
         }
-    }
+    }     
 }

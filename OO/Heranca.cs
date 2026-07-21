@@ -10,7 +10,7 @@ namespace CursoCHsharp.OO {
         public class Animal {
             public class Nome : Animal {
                 public void Comer() {
-                    Console.WriteLine("Animal comendo");
+                    Console.WriteLine("Animal está comendo");
                 }
             }
 
@@ -51,7 +51,6 @@ namespace CursoCHsharp.OO {
 
             Animal.Gato gato = new Animal.Gato();
             gato.Miado();
-
 
         }
     }
