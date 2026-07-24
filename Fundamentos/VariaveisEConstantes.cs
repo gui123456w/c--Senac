@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CursoCHsharp.Fundamentos {
+﻿    /*
     internal class VariaveisEConstantes {
+        /*
         public static void Executar() {
             //variável é um espaço na memória para armazenar um valor que pode ser alterado durante a execução do programa
             double raio = 4.5;
@@ -37,6 +31,8 @@ namespace CursoCHsharp.Fundamentos {
 
             Console.WriteLine("A área total é" + area);
             Console.WriteLine($"Neymar ganha {salarioRealVerdadeiroNey}");
+           
         }
     }
 }
+*/

@@ -20,7 +20,6 @@ namespace CursoCSharp {
 
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
 
-                {"Variaveis e Constantes - Fundamentos", VariaveisEConstantes.Executar},
 
                 {"Notação Ponto - Fundamentos", NotacaoPonto.Executar},
 
@@ -101,7 +100,8 @@ namespace CursoCSharp {
 
                 {"Herança   - OO", Heranca.Executar },
                 {"Carro - OO ", Carro.Executar },
-                {"Pessoa - OO ", Exercicio.Executar }
+                {"Pessoa - OO ", Exercicio.Executar },
+                {"Itembase - 00 ", Itembase.Executar }
                 
 
             });
