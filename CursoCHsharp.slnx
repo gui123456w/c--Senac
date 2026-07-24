@@ -1,3 +1,6 @@
 <Solution>
-  <Project Path="CursoCHsharp.csproj" />
+  <Project Path="../Encapsulamento/Encapsulamento.csproj" Id="9e955861-a996-4ae5-97f3-203c65b9bc86" />
+  <Project Path="CursoCHsharp.csproj">
+    <BuildDependency Project="../Encapsulamento/Encapsulamento.csproj" />
+  </Project>
 </Solution>
