@@ -3,7 +3,8 @@ using CursoCHsharp.ClassesEMetodos;
 using CursoCHsharp.Fundamentos;
 using CursoCSharp.Fundamentos;
 using CursoCHsharp.OO;
-
+using CursoCHsharp.MetodosEFuncoes;
+using CursoCHsharp.Excecao;
 using System;
 using System.Collections.Generic;
 using static CursoCHsharp.ClassesEMetodos.VendaCelular;
@@ -101,8 +102,14 @@ namespace CursoCSharp {
                 {"Herança   - OO", Heranca.Executar },
                 {"Carro - OO ", Carro.Executar },
                 {"Pessoa - OO ", Exercicio.Executar },
-                {"Itembase - 00 ", Itembase.Executar }
-                
+                {"Itembase - 00 ", Itembase.Executar },
+                //lambda
+                {"Lambda - M&F", ExemploLambda.Executar },
+                {"Exemplos - M&F", ExercicioATVs.Executar },
+                {"LamdaDelagate - M&F", LambdaDelegate.Executar },
+                //exceção
+                { "Exceção - Excecao", Exececao.Executar },
+                {"IngressoShow - Excecao", IngressoShow.Executar }
 
             });
 
