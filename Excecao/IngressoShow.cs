@@ -29,7 +29,7 @@ namespace CursoCHsharp.Excecao {
             var ingresso = new Ingresso(10);
             try {
                 ingresso.Comprar(quantidade);
-                Console.WriteLine($"Compra realidados com sucesso  ");
+                Console.WriteLine($"Compra realidados com sucesso, {quantidade} ");
             } catch (Exception ex) {
                 Console.WriteLine($"Erro ao comprar ingresso: {ex.Message}");
             } finally {
